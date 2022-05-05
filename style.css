@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(36, 241, 163);
+}
+
+h1{
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 0px;
+    padding: 10px;
+}
+#showsketch{
+    float: right;
+    font-size: 20px;
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+canvas{
+    border : 3px white solid;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+canvas:hover{
+    animation-name: background_canvas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes background_canvas
+{
+    from {box-shadow: 1px 1px 38px gray;}
+    to{box-shadow: 1px 1px 38px white;}
+}
