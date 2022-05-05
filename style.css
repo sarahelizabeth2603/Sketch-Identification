@@ -21,7 +21,7 @@ p{
 canvas{
     border : 3px white solid;
     border-radius: 20px;
-    margin-top: 30px;
+    margin-top: 80px;
 }
 canvas:hover{
     animation-name: background_canvas;
